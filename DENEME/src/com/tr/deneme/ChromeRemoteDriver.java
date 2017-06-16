@@ -26,7 +26,7 @@ public class ChromeRemoteDriver {
   	profile.setPreference("network.auth.force-generic-ntlm-v1", true);
   	profile.setPreference("network.automatic-ntlm-auth.allow-proxies", false);
   	profile.setPreference("network.proxy.type", 1);
-  	profile.setPreference("network.proxy.http", "proxy2.uyap.gov.tr");     
+  	profile.setPreference("network.proxy.http", "proxy.xxxx.com");     
   	profile.setPreference("network.proxy.http_port", 80);  
   	
     	System.setProperty("webdriver.firefox.marionette","geckodriver");
